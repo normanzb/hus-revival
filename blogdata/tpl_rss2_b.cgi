@@ -1,0 +1,1 @@
+<item><link><rss:link></link><title><log_title></title> <author><usrid></author><category><class_name></category><pubDate><create_time></pubDate> <description><![CDATA[<content>]]> </description></item>

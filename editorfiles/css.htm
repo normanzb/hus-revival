@@ -1,0 +1,54 @@
+<strong>使用竖排文字的CSS</strong>
+writing-mode:lr-tb;
+
+<strong>CSS中的表达式应用</strong>
+<style type="text/css">
+
+ tr {background-color:expression((this.sectionRowIndex%2==0)?"red":"blue")}
+
+ </style>
+ </HEAD>
+ <table>
+ <tr><td>第1行</td><td>第1行</td></tr>
+ <tr><td>第2行</td><td>第2行</td></tr>
+ <tr><td>第3行</td><td>第3行</td></tr>
+ <tr><td>第4行</td><td>第4行</td></tr>
+ <tr><td>第5行</td><td>第5行</td></tr>
+ </table>
+
+<strong>显示与不显示</strong>
+.hide-table {
+display: none
+}
+.show-table {
+display: block
+}
+
+<strong>位置控制</strong>
+vertical-align: top;  
+
+<strong>非常简洁的CSS更换代码。</strong>
+<script>
+ function CssApply(Csspath)
+  {
+   document.styleSheets[0].href=Csspath
+  }
+</script>  
+
+CSS代码部分
+a.info {
+position:relative; z-index:0; background-color:#ccc; color:#000; text-decoration:none }
+
+a.info:hover {
+z-index:1; background-color:#ff0 }
+
+a.info span {
+display: none }
+
+a.info:hover span {
+display:block; position:absolute; top:12px; left:2px; width:160px; border:1px solid #0cf; background-color:#cff; color:#000; text-align: center }
+
+body区调用方法
+1.<a class="info" href="javascript:;"><b>需要添加注释的文本</b><span>提示信息</span></a>
+
+2.<a class="info" href="javascript:;"><img src="需要添加注释的图片"><span>提示信息</span></a>

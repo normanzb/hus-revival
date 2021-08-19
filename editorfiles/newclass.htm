@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>新建分类</title>
+<style>
+@import url('./style_b.css');
+</style>
+<script language="javascript">
+function eseClose(){
+  if (event.keyCode == 27) { window.close();window.returnValue=0;}
+}
+function submitFORM(){
+window.open('about:blank','Messagebox','width=180,height=100,left=200,top=200,resizable=0,scrollbars=no');
+create_blog_class.submit();
+}
+function windclose(){
+window.close();
+window.returnValue=1;
+}
+</script>
+</head>
+<body onkeypress="eseClose();">
+<div class="dialog" style="height:80px;">
+<br />
+<FORM action="../blog_manager.cgi" method="post" name="create_blog_class" target="Messagebox">
+类名: <input class="text" name=class_name value="" maxlength="10" style="width:60px;" /> 描述:<input class="text" name=class_scription value="" maxlength="50" style="width:100px;" /><input type=hidden name="action" value="create_class"> <input type="button" value="新建" onclick="submitFORM();" />
+</form>
+</div>
+</body>
+</html>

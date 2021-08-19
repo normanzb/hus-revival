@@ -1,0 +1,225 @@
+body{
+margin-top:0px;
+margin-left:0px;
+background-color:#3A6EA5;
+font:9pt tahoma,宋体;
+}
+a{text-decoration:none;color:#000000;}
+a:hover{text-decoration:none;color:#000000;}
+#husicon{
+float:left;
+width:18px;
+height:16px;
+margin-top:4px;
+}
+#CenterLogin{
+position:absolute;
+left:30%;
+top:30%;
+width:350px;
+}
+#LoginBottom{
+border-top:1px solid #D4D0C8;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+background-color:#D4D0C8;
+position:absolute;
+padding-left:68px;
+padding-top:5px;
+left:4px;
+top:16px;
+width:99%;
+}
+#Title{
+font:12px tahoma;
+padding-left:10px;
+padding-bottom:2px;
+position:absolute;
+left:4px;
+top:0px;
+color:#ffffff;
+width:99%;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-top:1px solid #ffffff;
+border-right:1px solid #808080;
+cursor:default;
+filter:progid:DXImageTransform.Microsoft.gradient(StartColorStr=#0A246A,EndColorStr=#A6CAF0,GradientType=1);
+}
+#Menu{
+width:100%;
+padding-left:8px;
+padding-top:1px;
+padding-bottom:1px;
+font:9pt tahoma,宋体;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+background-color:#D4D0C8;
+clear:both;
+}
+#control{
+width:100%;
+padding-right:0px;
+padding-top:1px;
+padding-bottom:1px;
+font:9pt tahoma,宋体;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+background-color:#D4D0C8;
+height:50px;
+}
+#Editor{
+width:100%;
+height:422px;
+padding-left:8px;
+}
+#detectarea{
+width:100%;
+height:400px;
+}
+#layer_files{
+left:29px;
+top:26px;
+}
+#layer_fav{
+left:89px;
+top:26px;
+}
+#layer_help{
+left:149px;
+top:26px;
+}
+#HideFORM{
+display:none;
+}
+.text{
+width:220px;
+border-right:1px solid #ffffff;
+border-left:1px solid #808080;
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #808080;
+}
+.textbox{
+width:140px;
+border-right:1px solid #ffffff;
+border-left:1px solid #808080;
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #808080;
+}
+.Menulist_over{
+background:#0A246A;
+color:#FFFFFF;
+height:18px;
+padding-left:8px;
+cursor:default;
+}
+.Menulist_click{
+background:#0A246A;
+color:#FFFFFF;
+height:18px;
+padding-left:8px;
+cursor:default;
+}
+.Menulist_out{
+background:#D4D0C8;
+height:18px;
+padding-left:8px;
+cursor:default;
+}
+.layer{
+position:absolute;
+width:140px;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+background-color:#D4D0C8;
+font:9pt Verdana,宋体;
+display:none;
+}
+.buttons_out{
+width:50px;
+padding-left:5px;
+padding-right:5px;
+padding-top:4px;
+padding-bottom:4px;
+border-top:0px solid #FFFFFF;
+border-bottom:0px solid #808080;
+border-left:0px solid #ffffff;
+border-right:0px solid #808080;
+float:left;
+text-align:center;
+cursor:default;
+}
+.buttons_over{
+padding-left:4px;
+padding-right:4px;
+padding-top:3px;
+padding-bottom:3px;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+width:50px;
+float:left;
+text-align:center;
+cursor:default;
+}
+.buttons_click{
+padding-left:4px;
+padding-right:4px;
+padding-top:3px;
+padding-bottom:3px;
+border-right:1px solid #ffffff;
+border-left:1px solid #808080;
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #808080;
+width:50px;
+float:left;
+text-align:center;
+cursor:default;
+}
+.sbtn_out{
+border-top:1px dotted #808080;
+border-bottom:1px dotted #808080;
+border-left:1px dotted #808080;
+border-right:1px dotted #808080;
+text-align:center;
+width:16px;
+height:16px;
+cursor:default;
+padding-top:0px;
+}
+.sbtn_over{
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+margin-top:2px;
+margin-bottom:4px;
+margin-left:4px;
+margin-right:1px;
+text-align:center;
+width:20px;
+height:20px;
+cursor:default;
+padding-top:0px;
+padding-bottom:0px;
+}
+.sbtn_click{
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #808080;
+border-left:1px solid #ffffff;
+border-right:1px solid #808080;
+text-align:center;
+width:16px;
+height:16px;
+cursor:default;
+padding-top:0px;
+padding-bottom:0px;
+}

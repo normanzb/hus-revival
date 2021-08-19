@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /> 
+<meta http-equiv="Content-Language" content="gb2312" />
+<meta name="Copyright" content="2004-2005 by norman shinn(许宏宇) http://pfgroup.yeah.net" /> 
+<head>
+	<title>提示</title>
+	<style>
+	@import url(./style_b.css);
+	</style>
+</head>
+<body>
+	<div id="Mess" class="dialogbox">
+	
+	</div>
+	<div class="dialogbox" style="height:60px;">
+	<button onclick="CloseandReturn(1)">确定</button> <button onclick="CloseandReturn(0)">取消</button>
+	</div>
+	<script>
+	document.all.Mess.innerHTML=dialogArguments;
+	function CloseandReturn(arg){
+	window.close();
+	window.returnValue=arg;
+	}
+	</script>
+</body>
+</html>

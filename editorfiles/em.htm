@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+@import url(./style_b.css);
+</style>
+<title>表情面板</title>
+</head>
+<body>
+<div id="dialogtitle">
+<strong><img class="Imgbtn" src="dot.gif" align="absmiddle" /> 表情面版 Emotion</strong> <font face="webdings">6</font>
+</div>
+<div class="dialog" style="height:400px;Padding-top:12px;">
+<img class="Imgbtn" src="../b_img/emotion/1.gif" border=0 onclick="em(1)" />
+<img class="Imgbtn" src="../b_img/emotion/2.gif" border=0 onclick="em(2)" />
+<img class="Imgbtn" src="../b_img/emotion/3.gif" border=0 onclick="em(3)" />
+<img class="Imgbtn" src="../b_img/emotion/4.gif" border=0 onclick="em(4)" />
+<img class="Imgbtn" src="../b_img/emotion/5.gif" border=0 onclick="em(5)" />
+<img class="Imgbtn" src="../b_img/emotion/6.gif" border=0 onclick="em(6)" />
+<img class="Imgbtn" src="../b_img/emotion/7.gif" border=0 onclick="em(7)" />
+<img class="Imgbtn" src="../b_img/emotion/8.gif" border=0 onclick="em(8)" />
+<img class="Imgbtn" src="../b_img/emotion/9.gif" border=0 onclick="em(9)" />
+<img class="Imgbtn" src="../b_img/emotion/10.gif" border=0 onclick="em(10)" />
+<img class="Imgbtn" src="../b_img/emotion/11.gif" border=0 onclick="em(11)" />
+<img class="Imgbtn" src="../b_img/emotion/12.gif" border=0 onclick="em(12)" />
+<img class="Imgbtn" src="../b_img/emotion/13.gif" border=0 onclick="em(13)" />
+<img class="Imgbtn" src="../b_img/emotion/14.gif" border=0 onclick="em(14)" />
+<img class="Imgbtn" src="../b_img/emotion/15.gif" border=0 onclick="em(15)" />
+<img class="Imgbtn" src="../b_img/emotion/16.gif" border=0 onclick="em(16)" />
+<img class="Imgbtn" src="../b_img/emotion/17.gif" border=0 onclick="em(17)" />
+<img class="Imgbtn" src="../b_img/emotion/18.gif" border=0 onclick="em(18)" />
+<img class="Imgbtn" src="../b_img/emotion/19.gif" border=0 onclick="em(19)" />
+<img class="Imgbtn" src="../b_img/emotion/20.gif" border=0 onclick="em(20)" />
+<img class="Imgbtn" src="../b_img/emotion/21.gif" border=0 onclick="em(21)" />
+<img class="Imgbtn" src="../b_img/emotion/22.gif" border=0 onclick="em(22)" />
+<img class="Imgbtn" src="../b_img/emotion/23.gif" border=0 onclick="em(23)" />
+<img class="Imgbtn" src="../b_img/emotion/24.gif" border=0 onclick="em(24)" />
+<img class="Imgbtn" src="../b_img/emotion/25.gif" border=0 onclick="em(25)" />
+<img class="Imgbtn" src="../b_img/emotion/26.gif" border=0 onclick="em(26)" />
+<img class="Imgbtn" src="../b_img/emotion/27.gif" border=0 onclick="em(27)" />
+<img class="Imgbtn" src="../b_img/emotion/28.gif" border=0 onclick="em(28)" />
+<img class="Imgbtn" src="../b_img/emotion/29.gif" border=0 onclick="em(29)" />
+<img class="Imgbtn" src="../b_img/emotion/30.gif" border=0 onclick="em(30)" />
+</div>
+<script language="javascript">
+function em(emID){
+Rvalue=dialogArguments
+insertHTML="<img src='../b_img/emotion/" + emID + ".gif' />";
+Rvalue.document.body.focus()
+Rvalue.document.selection.createRange().pasteHTML(insertHTML);
+}
+</script>
+</body>
+</html>

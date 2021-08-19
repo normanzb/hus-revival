@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="<rss:charset>" ?><rss version="2.0"><channel> <title><rss:name></title>   <link><rss:link></link>   <description>This blog powered by HUS http://bynorman.51z.cn</description> <language>zh-cn</language> 

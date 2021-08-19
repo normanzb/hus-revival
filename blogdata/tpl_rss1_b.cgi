@@ -1,0 +1,1 @@
+<item>  <link><rss:link></link>  <title> <![CDATA[ <log_title>  ]]>   </title> <dc:creator> <![CDATA[ <usrid>  ]]>   </dc:creator>  <dc:date><create_time></dc:date>  <description> <![CDATA[<content>  ]]>   </description>  </item>

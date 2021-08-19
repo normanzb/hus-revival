@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+@import url(./style_b.css);
+</style>
+<script>
+function quickbutton(){
+	if ((event.keyCode==13 && event.ctrlKey) || (event.keyCode==83 && event.ctrlKey)){
+		//≈–∂œ «≤ª «CTRL+ENTER
+		parent.Savedocument();
+		}
+	if (event.keyCode==78 && event.ctrlKey){
+		parent.Newdocument();
+		}
+	if (event.keyCode==79 && event.ctrlKey){
+		parent.Opendocument('../');
+		}
+	if (event.keyCode==76 && event.altKey){
+		parent.detectclick();
+		parent.showlayer('layer_files');
+		}
+	if (event.keyCode==87 && event.altKey){
+		parent.detectclick();
+		parent.showlayer('layer_fav');
+		}
+	if (event.keyCode==72 && event.altKey){
+		parent.detectclick();
+		parent.showlayer('layer_help');
+		}
+}
+</script>
+</head>
+<body contenteditable="true" onclick="parent.detectclick(true)"  onkeydown="quickbutton();"></body>
+</html>

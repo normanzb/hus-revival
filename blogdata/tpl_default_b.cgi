@@ -1,0 +1,1 @@
+<div class="blog_title"><span class="blog_class"><class_name></span> <span class="blog_topic"><log_title></span></div><div class="blog_content"><span class="blog_loginfo"><usrid> ÓÚ <create_time> ·¢±í</span><br /><content></div>

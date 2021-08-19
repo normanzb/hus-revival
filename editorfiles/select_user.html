@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>隐藏对象选择</title>
+<style>
+@import url('./style_b.css');
+</style>
+<script language="javascript">
+function eseClose(){
+  if (event.keyCode == 27) { window.close();window.returnValue=-2;}
+}
+function windclose(val){
+window.close();
+window.returnValue=val;
+}
+</script>
+</head>
+<body onkeypress="eseClose();">
+<div class="dialog" style="height:80px;padding:10px;">
+请选隐藏方式：<br />
+<button onclick="windclose('0')">普通</button> <button onclick="windclose('-1')">游客</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<pagehref></div></div><div id="blog_clear"> </div><div id="blog_copyright">Copyright &copy; 2004-2008 <a href="http://bynorman.51z.cn">Program Presented by Norman Shinn</a> <usagetime></div></div></body></html>

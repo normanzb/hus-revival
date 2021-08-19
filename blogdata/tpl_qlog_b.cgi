@@ -1,0 +1,1 @@
+<div class=bigtext style="background:#F4F2EC" width=157><strong>{<class_name>}<log_title></strong></div><div class=smalltext width=157><br><center><usrid>ÓÚ<create_time>·¢±í</center><br></div><div class=normaltext width=157><content><br><abouturl></div>
